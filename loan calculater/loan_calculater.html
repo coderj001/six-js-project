@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+ <html>
+  <head>
+<!--          <script scr="loancalculator.js"></script>-->
+<script src="loancalculator.js"></script>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="loancalculator.css">
+    <title>
+      Loan Calculator
+    </title>
+  </head>
+  <body width="100%">
+
+    <div id="loancal">
+      <h1>Loan Calculator</h1>
+      <br>
+      <p>
+        Loan Amount: Rs &nbsp;<input id="amount" type="number" min="5000" max="10000000" value="5000" step="50" onchange="comploan()">
+      </p>
+      <p>
+        Interest Rate:  &nbsp;%&nbsp;&nbsp;&nbsp;<input id="rate" type="number" min="0" max="100" step=".1" value="0" onchange="comploan()"> 
+      </p>
+      <p>
+        Month To Pay: &nbsp;&nbsp;&nbsp;&nbsp; <input type="number" id="months" min="1" max="300" step="1" value="1" onchange="comploan()" >
+      </p>
+      <br>
+      <h2 id="payment"></h2>
+      
+    </div>
+    
+  </body>
+</html>

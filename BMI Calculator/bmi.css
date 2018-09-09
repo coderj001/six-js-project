@@ -1,0 +1,31 @@
+#container{
+  background-color: hotpink;
+  margin-right: 40px;
+  margin-bottom: 120px;
+  margin-left:40px;
+  margin-top: 80px;
+  width: 400px;
+  height: 390px;
+  border-color: brown;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-width: 6px;
+  border-left-width: 6px;
+  border-right-width: 6px;
+}
+#cm{
+  border-color: red;
+}
+#kg{
+  border-color: red;
+}
+#submit{
+  color: yellow;
+  background-color: blue;
+  width: 80px;
+  height: 29px;
+  margin-left: 120px;
+  margin-top: 19px;
+}
